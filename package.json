@@ -1,0 +1,46 @@
+{
+  "name": "scene",
+  "description": "Quickly create some files to try out ideas",
+  "version": "0.1.0",
+  "homepage": "https://github.com/moudy/scene",
+  "author": {
+    "name": "Moudy",
+    "email": "moudy.elkammash@gmail.com",
+    "url": "moudy.me"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/moudy/scene.git"
+  },
+  "bugs": {
+    "url": "https://github.com/moudy/scene/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/moudy/scene/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/scene",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "dependencies": {
+    "ncp": "*",
+    "optimist": "*"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.4.0",
+    "grunt": "~0.4.1"
+  },
+  "keywords": [],
+  "preferGlobal": "true",
+  "bin": {
+    "scene" : "bin/scene.js"
+  }
+}
