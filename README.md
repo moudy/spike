@@ -1,18 +1,18 @@
-# scene
+# Spike
 
 Quickly create some files to try out ideas
 
 ## Getting Started
-Install the module with: `npm install scene`
+Install the module with: `npm install spke`
 
 ## Examples
 From the command-line
 ```bash
-scene list // see a list of all 'scenes'
-scene info <name> // print out the README of <name>
-scene <name> // create a copy of <scene> in CWD
-scene // create copy of default scene (html-css-js)
-scene <name> --name foo // create a copy of <scene> in CWD name 'foo'
+spike list // see a list of all 'spikes'
+spike info <name> // print out the README of <name>
+spike <name> // create a copy of <spike> in CWD
+spike // create copy of default spike (html-css-js)
+spike <name> --name foo // create a copy of <spike> in CWD name 'foo'
 ```
 
 ## Contributing

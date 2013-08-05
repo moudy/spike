@@ -1,6 +1,6 @@
 'use strict';
 
-var scene = require('../lib/scene.js');
+var spike = require('../lib/spike.js');
 
 /*
   ======== A Handy Little Nodeunit Reference ========
@@ -30,7 +30,7 @@ exports['awesome'] = {
   'no args': function(test) {
     test.expect(1);
     // tests here
-    test.equal(scene.awesome(), 'awesome', 'should be awesome.');
+    test.equal(spike.awesome(), 'awesome', 'should be awesome.');
     test.done();
   },
 };

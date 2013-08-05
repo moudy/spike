@@ -1,8 +1,8 @@
 {
-  "name": "scene",
+  "name": "spike",
   "description": "Quickly create some files to try out ideas",
   "version": "0.1.0",
-  "homepage": "https://github.com/moudy/scene",
+  "homepage": "https://github.com/moudy/spike",
   "author": {
     "name": "Moudy",
     "email": "moudy.elkammash@gmail.com",
@@ -10,18 +10,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/moudy/scene.git"
+    "url": "git://github.com/moudy/spike.git"
   },
   "bugs": {
-    "url": "https://github.com/moudy/scene/issues"
+    "url": "https://github.com/moudy/spike/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/moudy/scene/blob/master/LICENSE-MIT"
+      "url": "https://github.com/moudy/spike/blob/master/LICENSE-MIT"
     }
   ],
-  "main": "lib/scene",
+  "main": "lib/spike",
   "engines": {
     "node": ">= 0.8.0"
   },
@@ -42,6 +42,6 @@
   "keywords": [],
   "preferGlobal": "true",
   "bin": {
-    "scene" : "bin/scene.js"
+    "spike" : "bin/spike.js"
   }
 }
