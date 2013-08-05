@@ -3,7 +3,7 @@
 Quickly create some files to try out ideas
 
 ## Getting Started
-Install the module with: `npm install spke`
+Install the module with: `npm install spike`
 
 ## Examples
 From the command-line
